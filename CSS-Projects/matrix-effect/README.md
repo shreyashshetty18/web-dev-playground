@@ -1,1 +1,3 @@
 ## Matrix Text Mini Practice Project
+A simple JavaScript project that creates a text-scramble animation on hover. When the user moves the cursor over the text, each character is temporarily replaced with a random letter (A–Z, a–z), creating a cool “hacker-style” scrambling effect.
+This project uses basic DOM manipulation, events, and array mapping — making it a great beginner-friendly way to understand how interactive text animations work in JavaScript.

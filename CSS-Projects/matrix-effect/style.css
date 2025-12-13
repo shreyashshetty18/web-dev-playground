@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: rgb(0, 241, 0);
+    font-size: 3rem;
+    font-weight: 600;
+}
