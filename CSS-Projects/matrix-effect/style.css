@@ -12,10 +12,22 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 
 p{
     color: rgb(0, 241, 0);
     font-size: 3rem;
     font-weight: 600;
+    background-color: aliceblue;
+    padding: 30px;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+    background-color: black;
 }

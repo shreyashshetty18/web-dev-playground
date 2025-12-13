@@ -6,16 +6,15 @@ let iteration = 0
 
 para.addEventListener("mouseenter", () => {
 
-
-    setInterval(() => {
+    function randomtext() {
         const str = text.split('').map((char, index) => {
-            return characters.split("")[Math.floor(Math.random() * 53)]
+            if (index < iteration) {
+                return char
+            }
+            return characters.split("")[Math.floor(Math.random() * characters.length)]
         }).join("")
         para.innerText = str
-    }, 30)
-
-
-    console.log(str);
-
-
+        iteration += 0.2
+    }
+    setInterval(randomtext, 30)
 })
