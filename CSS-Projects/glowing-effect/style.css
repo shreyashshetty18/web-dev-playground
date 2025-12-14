@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    box-shadow:  0 0 50px red;
+    border-radius: 15px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: black;
+    text-shadow: 40px red;
+}
