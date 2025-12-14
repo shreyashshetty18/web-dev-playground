@@ -1,6 +1,7 @@
 # Matrix Text Effect
 
 This project demonstrates a Matrix-style text scramble animation using HTML, CSS, and JavaScript.
+## Live Demo : https://matrix-effect-text.netlify.app/
 
 ## Features
 - Animated text scramble effect on mouse hover.
