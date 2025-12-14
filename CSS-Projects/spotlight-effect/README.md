@@ -1,6 +1,7 @@
 # Spotlight Effect
 
 This project demonstrates a simple spotlight effect using HTML, CSS, and JavaScript.
+## Live Demo : https://spotlight-hover-effect.netlify.app/
 
 ## Features
 - A background image with a dynamic spotlight that follows the mouse cursor.
