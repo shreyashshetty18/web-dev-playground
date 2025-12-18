@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+test{
+    height: 10vh;
+    width: 100%;
+    padding: .4vw 3vw;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+#test-part1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#test-part1 #img-div{
+    height: 2.7vw;
+    width: 2.7vw;
+    border-radius: 50%;
+    background-image: url(https://react-js-projects-sage.vercel.app/logo.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+test>a{
+    margin-right: 3vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    border-bottom: 1px solid #111;
+}
+
+#app-leftt{
+    margin-top: 10vh;
+    width: 8.5%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw;
+
+    flex-direction: column;
+}
+
+#app-leftt #line{
+    height: 50vh;
+    width: 8%;
+    background-color: black;
+    opacity: .5;
+}
+
+#app-leftt a{
+    opacity: .5;
+    font-weight: 600;
+    rotate: 270deg;
+    margin-top: 3vw;
+    white-space: nowrap;
+}
+
+#app-leftt #a2{
+    margin-top: -2vw;
+}
+
+
+#app #left{
+    margin-top: 10vh;
+    height: 90%;
+    width: 37%;
+}
+
+#left #left-top{
+    width: 100%;
+    padding-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#left-top-elm1{
+    margin-bottom: 2vw;
+    margin-left: -16vw;
+}
+
+#left-top-elm2{
+    margin-bottom: 2vw;
+}
+
+#left-top h1{
+    font-size: 3vw;
+    font-weight: 200;
+    opacity: .8;
+    
+}
+
+#left-top h4{
+    font-size: .85vw;
+    font-weight: 400;
+    opacity: .5;
+}
+
+#left #left-center{
+    width: 100%;
+    padding-left: 3vw;
+    text-align: start;
+}
+
+#left-center h1{
+    font-size: 13vw;
+    font-weight: 300;
+}
+
+#left-center h4{
+    font-size: 1.4vw;
+    margin-top: -2vw;
+    font-weight: 400;
+}
+
+#left #left-bottom{
+    width: 100%;
+    padding-top: 7vw;
+    padding-left: 3vw;
+    font-size: 1.3vw;
+    opacity: .6;
+}
+
+#app #app-right{
+    margin-top: 10vh;
+    height: 90%;
+    width: 53%;
+    background-image: url(https://wallpapercave.com/wp/wp2941387.jpg);
+    background-size: cover;
+    background-position: 0 -14px; 
+}
