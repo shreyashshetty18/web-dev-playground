@@ -1,0 +1,54 @@
+/* Reset and base styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(circle, #000, #050505, #020202);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 100vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.circle {
+    position: absolute;
+    background: transparent;
+    width: calc(var(--i) * 3vmin);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 255, 13);
+    box-shadow: 0 0 15px rgba(0, 255, 13, 0.8), 0 0 30px rgba(0, 255, 13, 0.5);
+    animation: animate 4s ease-in-out calc(var(--i) * 0.2s) infinite;
+    transform-style: preserve-3d;
+    transform: rotateX(70deg) translateZ(100px) translateY(0);
+}
+
+/* Animation keyframes */
+@keyframes animate {
+    0% {
+        transform: rotateX(70deg) translateZ(100px) translateY(0);
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        transform: rotateX(70deg) translateZ(100px) translateY(-30vmin);
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        transform: rotateX(70deg) translateZ(100px) translateY(0);
+        filter: hue-rotate(360deg);
+    }
+}
