@@ -16,18 +16,6 @@ A simple, responsive restaurant landing page built with plain HTML, CSS and a sm
 - CSS3 (custom properties, flexbox)
 - JavaScript (jQuery for smooth scrolling)
 
-## ▶️ Run locally
-
-1. Clone or download the project folder.
-2. Open `index.html` in your browser OR serve a local static server (recommended for testing links):
-
-```bash
-# using Python 3
-python -m http.server 8000
-# or using node's serve (if installed)
-serve .
-```
-
 ## 📁 Project structure
 
 ```
