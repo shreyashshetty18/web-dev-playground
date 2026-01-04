@@ -17,7 +17,6 @@ This repository contains my **daily learning**, **mini-projects**, and **full-sc
 
 - **HTML5** – Structure  
 - **CSS3** – Styling & Layout  
-- **JavaScript (ES6+)** – Logic & Interactivity  
-- **React.js** – Component-based UI development  
+- **JavaScript (ES6+)** – Logic & Interactivity   
 - **Git & GitHub** – Version control  
 
