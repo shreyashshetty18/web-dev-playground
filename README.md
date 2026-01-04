@@ -9,7 +9,6 @@ This repository contains my **daily learning**, **mini-projects**, and **full-sc
 
 - ✅ Practice modern frontend technologies  
 - ✅ Build real-world projects  
-- ✅ Experiment with UI/UX ideas  
 - ✅ Track daily learning and progress    
 
 ---
