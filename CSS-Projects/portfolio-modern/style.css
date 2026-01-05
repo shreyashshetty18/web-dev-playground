@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg: #0b0f14;
+    --surface: #0f1720;
+    --text: #e8eef2;
+    --muted: #9aa6b0;
+    --accent: #00d4ff;
+    --accent-2: #6bffee;
+    --border: #23303a;
+} 
+
 body{
-    background-color: #1e1e1e;
+    background-color: var(--bg);
     font-family: sans-serif;
-    color: #a0a0a0;
+    color: var(--muted);
     line-height: 1.6;
-}
+} 
 
 .main-container{
     display: grid;
@@ -22,20 +32,20 @@ body{
 
 .sidebar{
     height: 90vh;
-    background-color:#2a2a2a;
-    border: 1px solid #3a3a3a;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
     border-radius: 16px;
     padding: 40px;
     position: sticky;
     top: 40px;
-}
+} 
 
 .main-content{
-    background-color:#2a2a2a;
-    border: 1px solid #3a3a3a;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
     border-radius: 16px;
     padding: 40px;
-}
+} 
 
 
 /* Profile section */
@@ -60,15 +70,15 @@ body{
 }
 
 .profile p{
-    background-color: #1e1e1e;
+    background-color: transparent;
     padding: 5px 15px;
-    color: #FFBF00;
-    border: 1px solid #3a3a3a;
+    color: var(--accent);
+    border: 1px solid var(--border);
     font-size: 0.8rem;
     border-radius: 8px;
     display: inline-block;
     margin-top: 10px;
-}
+} 
 
 
 
@@ -142,8 +152,8 @@ nav a{
 }
 
 .active, nav a:hover{
-    color: #FFBF00;
-}
+    color: var(--accent);
+} 
 
 
 /* about me */
@@ -157,9 +167,9 @@ nav a{
 .line{
     width: 60px;
     height: 5px;
-    background-color: #FFBF00;
+    background-color: var(--accent);
     margin-bottom: 15px;
-}
+} 
 
 .content{
     text-align: justify;
@@ -254,13 +264,13 @@ nav a{
 .goal{
     height: 15px;
     width: 15px;
-    border: 3px solid #FFBF00;
+    border: 3px solid var(--accent-2);
     border-radius: 50%;
     position: absolute;
     top:5px;
     left: 0px;
     z-index: 5;
-}
+} 
 
 .liner{
     position: absolute;
@@ -268,8 +278,8 @@ nav a{
     top:0px;
     bottom: 0px;
     left: 5px;
-    border: 2px solid #3a3a3a;
-}
+    border: 2px solid var(--border);
+} 
 
 
 /* Portfolio */
@@ -291,8 +301,8 @@ nav a{
 
 .project:hover{
     transform: translateY(-10px);
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);;
-}
+    box-shadow: 0 10px 30px rgba(0,212,255,0.06);
+} 
 
 .project img{
     height: 180px;
@@ -302,27 +312,49 @@ nav a{
 
 .card{
     padding: 20px;
+    position: relative;
 }
 
 .card h3{
-    color: #e0e0e0;
+    color: var(--text);
     margin-bottom: 10px;
 }
 
 .card p{
-    color: #a0a0a0;
+    color: var(--muted);
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
+.card .live-btn{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    color: #0b0f14;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.card .live-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    opacity: 0.95;
+} 
+
 .card span{
-    background-color: rgba(255, 191, 0, 0.1);
-    color: #FFBF00;
+    background-color: rgba(0, 212, 255, 0.08);
+    color: var(--accent);
     padding: 4px 8px;
     border-radius: 5px;
     font-size: 0.75rem;
     margin-right: 5px;
-}
+} 
 
 @media screen and (max-width:1200px) {
     .main-container{
