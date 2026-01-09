@@ -1,1 +1,63 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-container {
+  background: #020617;
+  padding: 30px 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  color: #38bdf8;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.clock {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colon {
+  margin: 0 6px;
+  animation: blink 1s infinite;
+}
+
+.ampm {
+  font-size: 1rem;
+  margin-left: 10px;
+  color: #38bdf8;
+}
+
+.date {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #94a3b8;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
