@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+
+    <!-- SCSS will be compiled to CSS -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+    <div class="clock-container">
+        <h1 class="title">Digital Clock</h1>
+
+        <div class="clock">
+            <span id="hours">00</span>
+            <span class="colon">:</span>
+            <span id="minutes">00</span>
+            <span class="colon">:</span>
+            <span id="seconds">00</span>
+            <span id="ampm" class="ampm">AM</span>
+        </div>
+
+        <div id="date" class="date"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
