@@ -5,7 +5,7 @@ This mini project demonstrates animated grid behavior — perfect for understand
 
 ## 🚀 Live Preview
 
-> 
+> https://grid-animation-codegrid.netlify.app/
 
 ---
 
