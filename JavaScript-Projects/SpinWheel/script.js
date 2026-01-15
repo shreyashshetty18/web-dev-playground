@@ -83,12 +83,14 @@ spinBtn.addEventListener("click", () => {
         myChart.options.rotation = myChart.options.rotation + resultValue;
        
         myChart.update();
-        l̥ō
+
         if (myChart.options.rotation >= 360) {
             count += 1;
             resultValue -= 5;
             myChart.options.rotation = 0;
-        } else if (count > 15 && myChart.options.rotation == randomDegree) {
+        } else if (count > 15 && Math.abs(myChart.options.rotation - randomDegree) < 1) {
+            myChart.options.rotation = randomDegree;
+            myChart.update();
             valueGenerator(randomDegree);
             clearInterval(rotationInterval);
             count = 0;
