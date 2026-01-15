@@ -50,36 +50,3 @@ SpinWheel/
 ### Change Wheel Values
 Modify the `rotationValues` array in `script.js` to change the degree-to-value mapping.
 
-### Change Colors
-Edit the `pieColors` array in `script.js` to customize the wheel segment colors:
-```javascript
-var pieColors = [
-    "#8b35bc",
-    "#b163da",
-    "#8b35bc",
-    "#b163da",
-    "#8b35bc",
-    "#b163da",
-];
-```
-
-### Change Background
-Update the `body` style in `style.css` to change the gradient background.
-
-## Browser Compatibility
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Issues Fixed
-
-- ✅ Removed corrupted code character
-- ✅ Fixed infinite rotation issue by using proximity detection
-- ✅ Replaced external arrow image with CSS-drawn arrow for reliability
-- ✅ Added proper arrow styling with shadow effect
-
-## License
-
-Free to use and modify for personal and commercial projects.
