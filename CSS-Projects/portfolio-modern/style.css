@@ -202,7 +202,7 @@ nav a{
 .item img{
     height: 48px;
     width: 48px;
-    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(180deg) brightness(110%) contrast(101%);
     margin-bottom: 15px;
 }
 
